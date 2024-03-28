@@ -1,0 +1,7 @@
+.wrapper .block {
+    display: none;
+}
+
+.wrapper button{
+    width: 90vw;
+}
