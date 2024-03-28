@@ -1,0 +1,38 @@
+body {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: #a5eaa5;
+    border: 1px solid #064406;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.wrapper > div > p {
+    margin: 5px;
+}
+
+.comments_cont {
+    margin-top: 20px;
+    width: 96vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.comments_cont > .comment {
+    background-color: #a5eaa5;
+    border: 1px solid #064406;
+    border-radius: 5px;
+    padding: 5px;
+    width: 22%;
+}
+
